@@ -13,6 +13,7 @@
   </head>
   <body class="gradient-bg">
     <div class="logo">
+      <img src="{{ url_for('static', filename='images/spotify.jpg', _external=True) }}" alt="Spotify" width="100px" height="100px"/>
       <h1>Spotify Recommendations</h1>
     </div>
     <form method="POST" action="/recommendations">
